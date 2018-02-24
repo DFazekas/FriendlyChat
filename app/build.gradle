@@ -41,11 +41,26 @@ dependencies {
     // Displaying images.
     implementation 'com.github.bumptech.glide:glide:3.7.0'
 
+    // Firebase Login UI.
+    implementation 'com.firebaseui:firebase-ui-auth:3.2.1'
+
     // Firebase Realtime Database.
     implementation 'com.google.firebase:firebase-database:11.8.0'
 
     // Firebase Authentication.
-    implementation 'com.firebaseui:firebase-ui-auth:3.2.1'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+
+    // Firebase Storage.
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+
+    // Firebase Cloud Messaging.
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+
+    // Firebase Remote Config.
+    implementation 'com.google.firebase:firebase-config:11.8.0'
 }
+
+
+
 
 apply plugin: 'com.google.gms.google-services'
